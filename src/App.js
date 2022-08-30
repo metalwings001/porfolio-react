@@ -176,13 +176,13 @@ const WorkDesktop = () => {
       <div className='work-title'><div className='work-text-alt'>Some Of My Work</div></div>
       <div className='work-item'>
       <div className='work-image-box'>  
-          <img className='work-image' src={weather}></img>
+          <a target="_blank" href='https://metalwings001.github.io/forecast-app/'><img className='work-image' src={weather}></img></a>
           <div className='work-image-text'> Weather Forecast App</div>
         </div>
         <div className='work-box'> <div className='work-text'>Weather Forecast App</div>
         <div className='work-details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum at provident quo repellat assumenda, porro ab! Provident reiciendis quasi vero dolorum fugit quod repudiandae, tempora, quia velit ex dignissimos magni quidem repellendus dicta hic doloribus. Mollitia eligendi laudantium officiis sed!</div>
         <div className='work-bar'>
-          <a href='' target="_blank" className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/weather_app_public' className='work-btn'>CODE</a>
+          <a href='https://metalwings001.github.io/forecast-app/' target="_blank" className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/weather_app_public' className='work-btn'>CODE</a>
         </div>
         </div>
       </div>
@@ -194,13 +194,13 @@ const WorkDesktop = () => {
         </div>
         </div>
         <div className='work-image-box'>  
-          <img className='work-image' src={web2}></img>
+          <a target="_blank" href='https://metalwings001.github.io/product-landing-page/'><img className='work-image' src={web2}></img></a>
           <div className='work-image-text'> Product Landing Page </div>
         </div>
       </div>
       <div className='work-item'>
         <div className='work-image-box'>  
-          <img className='work-image' src={web1}></img>
+          <a target="_blank" href='https://metalwings001.github.io/help-center/'><img className='work-image' src={web1}></img></a>
           <div className='work-image-text'> Product Help Center </div>
         </div>
        
