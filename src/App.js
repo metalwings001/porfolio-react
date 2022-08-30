@@ -66,7 +66,6 @@ const NavMobile = () => {
   const [isToggled, setToggled] = useState(false)
   const isDesktop = useMediaQuery({ minWidth: 1125 })
   
-  const element = <div>Poggers<div>BIG POG</div></div>
 
   let myclassName = 'nav-list-mobile'
 
@@ -126,7 +125,7 @@ const SectionOne = ({isDesktop}) => {
         <div className='section-one-side-to-side'>
           {isDesktop ? <img className='program-image' src={program3} alt='program image'></img> 
           : <img className='program-image' src={desktop} alt='program image'></img>}
-          <div className='main-text'>Hi, I am <span className='my-name'>Justin De León</span>
+          <div className='main-text'>Hello, I am <span className='my-name'>Justin De León</span>
           <div className='job-text'>Front-End Dev</div></div>
         </div>
         <a href='#about-container'><img className='downarrow' src={down2}></img></a>
@@ -298,7 +297,7 @@ const Footer = () => {
         <ul className='footer-list'>
           <li className='footer-list-item'><a href='#'><img className='linked' src={linked} ></img></a> </li>
           <li className='footer-list-item'><a href='#' ><img className='gitHub' src={gitHub} ></img></a> </li>
-          <li className='footer-list-item'><a href='#' ><img className='codepen' src={codepen} ></img></a> </li>
+          
 
         </ul>
         <div className='footer-name'>Justin De León</div>

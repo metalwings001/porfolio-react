@@ -7,7 +7,7 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
-  /*outline: 1px solid limegreen !important; */
+  outline: 1px solid limegreen !important; 
   font-family: 'Lucida Bright';
   
 }
@@ -50,7 +50,7 @@ html {
 }
 .nav-item{
   display: flex;
-  margin-left: 1.5rem;
+  margin-left: 1.5rem; 
   margin-right: 1.5rem;
   height: 99%;
   align-self: center;
@@ -84,7 +84,7 @@ html {
   padding: .5rem;
   background-color: #a239db;
   border-radius: 25px;
-  bottom: 4rem;
+  bottom: 4px;
   animation-name: wobble;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -114,7 +114,7 @@ html {
 }
 .program-image{
   margin-top: -4rem;
-  height: 67vh;
+  height: 60vh;
   width: 50%;
   
   transform: scaleX(-1);
@@ -136,6 +136,7 @@ html {
   justify-content: center;
   height: 95vh;
   scroll-margin-top: 3.05rem;
+  
   
 }
 
@@ -163,6 +164,7 @@ html {
   margin-top: .75rem;
   width: 41rem;
   font-size: 1.35rem;
+ 
   line-height: 1.5;
 }
 .about-box{
@@ -207,10 +209,9 @@ html {
 }
 .work-container{
   color: white;
-  margin-left: auto;
-  margin-right: auto;
+  
   background-image: url('./images/background.jpg');
-  width: 100%;
+
   scroll-margin-top: 4.3rem;
 }
 .work-title{
@@ -222,6 +223,8 @@ html {
 .work-image{
   width: 50vw;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .work-item:last-child{
@@ -296,7 +299,7 @@ html {
 }
 .work-image-mobile{
   height: 29rem;
-  width: 25rem;
+  width: rem;
   border-radius: 25px;
 }
 .work-details{
@@ -406,7 +409,7 @@ a.left:hover:before {
   background-color: #0072B1;
 }
 .footer-list-item .gitHub{
-  height: 50px;
+  height: 40px;
 }
 .contact-container{
   margin-left: auto;
@@ -527,23 +530,42 @@ a.left:hover:before {
 
  .about-text{
   font-size: 1.5rem;
+  width: 96vw;
+ } 
+ .about-box{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 90vw;
+  font-size: 0.875rem;
  }
  
   .work-item{
     flex-direction: column;
+    
   }
   .work-box{
     margin-bottom: 2.5rem;
     
-    width: 70%;
+    width: 95%;
   }
   .work-image-box{
-    width: 70%;
+    width: 100%;
   }
   .work-image{
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
   }
   .work-image-text{
-    width: 65vw;
+    width: 95vw;
+  }
+  .contact-container{
+    width: 85vw;
+  }
+  .work-image{
+    
+    height: auto;
+    
   }
 }
