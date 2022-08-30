@@ -106,7 +106,8 @@ html {
 .main-text{
   text-align: center;
   font-size: 1.2em;
-  padding-right: 2rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 .my-name{
   display: block;
@@ -409,7 +410,7 @@ a.left:hover:before {
   background-color: #0072B1;
 }
 .footer-list-item .gitHub{
-  height: 40px;
+  height: 44px;
 }
 .contact-container{
   margin-left: auto;
@@ -521,8 +522,9 @@ a.left:hover:before {
   margin-top: -24vh;
   margin-bottom: -10vh;
   transform: scaleX(1);
-  width: 65vw;
-  min-width: 40rem;
+  width: 62vw;
+  min-width: 60vw;
+  
  }
  .main-text{
   font-size: 1.4em;
@@ -567,5 +569,15 @@ a.left:hover:before {
     
     height: auto;
     
+  }
+}
+@media(max-width:700px) {
+  .program-image{
+    width: 95vw;
+  }
+}
+@media(max-height:800px) {
+  .downarrow{
+    display: none;
   }
 }
