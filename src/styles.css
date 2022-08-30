@@ -84,7 +84,7 @@ html {
   padding: .5rem;
   background-color: #a239db;
   border-radius: 25px;
-  bottom: 4px;
+  bottom: 1rem;
   animation-name: wobble;
   animation-duration: 2s;
   animation-iteration-count: infinite;
