@@ -182,7 +182,7 @@ const WorkDesktop = () => {
         <div className='work-box'> <div className='work-text'>Weather Forecast App</div>
         <div className='work-details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum at provident quo repellat assumenda, porro ab! Provident reiciendis quasi vero dolorum fugit quod repudiandae, tempora, quia velit ex dignissimos magni quidem repellendus dicta hic doloribus. Mollitia eligendi laudantium officiis sed!</div>
         <div className='work-bar'>
-          <a href='#' className='work-btn'>DEMO</a> <a href='#' className='work-btn'>CODE</a>
+          <a href='' target="_blank" className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/weather_app_public' className='work-btn'>CODE</a>
         </div>
         </div>
       </div>
@@ -190,7 +190,7 @@ const WorkDesktop = () => {
       <div className='work-box'> <div className='work-text'>Product Landing Page</div>
         <div className='work-details'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rerum corporis laborum quas laboriosam inventore, veritatis doloremque temporibus eos explicabo sit enim! Debitis nobis quibusdam qui ex tenetur quasi tempore!</div>
         <div className='work-bar'>
-          <a href='#' className='work-btn'>DEMO</a> <a href='#' className='work-btn'>CODE</a>
+          <a target="_blank" href='https://metalwings001.github.io/product-landing-page/' className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/product-landing-page/tree/master' className='work-btn'>CODE</a>
         </div>
         </div>
         <div className='work-image-box'>  
@@ -207,7 +207,7 @@ const WorkDesktop = () => {
         <div className='work-box'> <div className='work-text'>Product Help Center</div>
         <div className='work-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non delectus atque tempore reprehenderit ipsam dolor!</div>
         <div className='work-bar'>
-          <a href='#' className='work-btn'>DEMO</a> <a href='#' className='work-btn'>CODE</a>
+          <a target="_blank" href='https://metalwings001.github.io/help-center/' className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/help-center' className='work-btn'>CODE</a>
         </div></div>
       
        
@@ -295,8 +295,8 @@ const Footer = () => {
       </div>
       <footer className='footer-container'>
         <ul className='footer-list'>
-          <li className='footer-list-item'><a href='#'><img className='linked' src={linked} ></img></a> </li>
-          <li className='footer-list-item'><a href='#' ><img className='gitHub' src={gitHub} ></img></a> </li>
+          <li className='footer-list-item'><a target="_blank" href='https://www.linkedin.com/in/justin-de-leon-1180a1213/'><img className='linked' src={linked} ></img></a> </li>
+          <li className='footer-list-item'><a target="_blank" href='https://github.com/metalwings001' ><img className='gitHub' src={gitHub} ></img></a> </li>
           
 
         </ul>
