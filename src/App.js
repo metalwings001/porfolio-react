@@ -144,7 +144,8 @@ const About = () => {
         About Me
       </div>
       <img className='face-image' src={me} alt='pic of my face'></img>
-      <p className='about-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, veniam sunt! Facilis aperiam quia doloremque illum laboriosam sequi laudantium accusantium ad aliquid, itaque ipsa delectus saepe consectetur incidunt nobis nostrum enim unde corporis. Quia assumenda mollitia quisquam suscipit laudantium exercitationem nihil!</p>
+      <p className='about-text'>Hello I am Justin and I am passionate about front-end development. After graduating with a B.S. in Computer Science I have been working on various front-end projects. I am experienced and familiar with front-end framework ReactJs along with JavaScript and CSS. 
+</p>
       <div className="about-box">
         <div className='box-title'>
           What I am 
@@ -180,7 +181,7 @@ const WorkDesktop = () => {
           <div className='work-image-text'> Weather Forecast App</div>
         </div>
         <div className='work-box'> <div className='work-text'>Weather Forecast App</div>
-        <div className='work-details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum at provident quo repellat assumenda, porro ab! Provident reiciendis quasi vero dolorum fugit quod repudiandae, tempora, quia velit ex dignissimos magni quidem repellendus dicta hic doloribus. Mollitia eligendi laudantium officiis sed!</div>
+        <div className='work-details'>Created an app that provides you with a 5 day weather forecast. Made using ReactJs alongside OpenWeather API and Nominatim API to get your geographical data and weather conditions.</div>
         <div className='work-bar'>
           <a href='https://metalwings001.github.io/forecast-app/' target="_blank" className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/weather_app_public' className='work-btn'>CODE</a>
         </div>
@@ -188,7 +189,7 @@ const WorkDesktop = () => {
       </div>
       <div className='work-item'>
       <div className='work-box'> <div className='work-text'>Product Landing Page</div>
-        <div className='work-details'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rerum corporis laborum quas laboriosam inventore, veritatis doloremque temporibus eos explicabo sit enim! Debitis nobis quibusdam qui ex tenetur quasi tempore!</div>
+        <div className='work-details'>Created a fully responsive product landing page layout. The landing page design is dynamic and robust featuring essential techniques and features when desiging a product landing page. Created using CSS with the use of flexbox. </div>
         <div className='work-bar'>
           <a target="_blank" href='https://metalwings001.github.io/product-landing-page/' className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/product-landing-page/tree/master' className='work-btn'>CODE</a>
         </div>
@@ -205,7 +206,7 @@ const WorkDesktop = () => {
         </div>
        
         <div className='work-box'> <div className='work-text'>Product Help Center</div>
-        <div className='work-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non delectus atque tempore reprehenderit ipsam dolor!</div>
+        <div className='work-details'>Created a responsive Product help center page. The page contains usefully layout techniques for all areas and features for users to navigate the website easily. Created using CSS with the use of flexbox. </div>
         <div className='work-bar'>
           <a target="_blank" href='https://metalwings001.github.io/help-center/' className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/help-center' className='work-btn'>CODE</a>
         </div></div>
@@ -223,28 +224,28 @@ const WorkMobile = () => {
     <div className='work-item'>
       
       <div className='work-box'> <div className='work-text'>Weather Forecast App</div>
-      <div className='work-details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum at provident quo repellat assumenda, porro ab! Provident reiciendis quasi vero dolorum fugit quod repudiandae, tempora, quia velit ex dignissimos magni quidem repellendus dicta hic doloribus. Mollitia eligendi laudantium officiis sed!</div>
+      <div className='work-details'>Created an app that provides you with a 5 day weather forecast. Made using ReactJs alongside OpenWeather API and Nominatim API to get your geographical data and weather conditions.</div>
       <div className='work-bar'>
-        <a href='#' className='work-btn'>DEMO</a> <a href='#' className='work-btn'>CODE</a>
+      <a href='https://metalwings001.github.io/forecast-app/' target="_blank" className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/weather_app_public' className='work-btn'>CODE</a>
       </div>
       
       </div>
      
       <div className='work-image-box'>  
-          <img className='work-image' src={weather}></img>
-          <div className='work-image-text'> Weather Forecast App</div>
+        <a target="_blank" href='https://metalwings001.github.io/forecast-app/'><img className='work-image' src={weather}></img></a>
+        <div className='work-image-text'> Weather Forecast App</div>
       </div>
       
     </div>
     <div className='work-item'>
     <div className='work-box'> <div className='work-text'>Product Landing Page</div>
-      <div className='work-details'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rerum corporis laborum quas laboriosam inventore, veritatis doloremque temporibus eos explicabo sit enim! Debitis nobis quibusdam qui ex tenetur quasi tempore!</div>
+      <div className='work-details'>Created a fully responsive product landing page layout. The landing page design is dynamic and robust featuring essential techniques and features when desiging a product landing page. Created using CSS with the use of flexbox.</div>
       <div className='work-bar'>
-        <a href='#' className='work-btn'>DEMO</a> <a href='#' className='work-btn'>CODE</a>
+      <a target="_blank" href='https://metalwings001.github.io/product-landing-page/' className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/product-landing-page/tree/master' className='work-btn'>CODE</a>
       </div>
       </div>
       <div className='work-image-box'>  
-        <img className='work-image' src={web2}></img>
+        <a target="_blank" href='https://metalwings001.github.io/product-landing-page/'><img className='work-image' src={web2}></img></a>
         <div className='work-image-text'> Product Landing Page </div>
       </div>
     </div>
@@ -252,12 +253,12 @@ const WorkMobile = () => {
       
      
       <div className='work-box'> <div className='work-text'>Product Help Center</div>
-      <div className='work-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non delectus atque tempore reprehenderit ipsam dolor!</div>
+      <div className='work-details'>Created a responsive Product help center page. The page contains usefully layout techniques for all areas and features for users to navigate the website easily. Created using CSS with the use of flexbox.</div>
       <div className='work-bar'>
-        <a href='#' className='work-btn'>DEMO</a> <a href='#' className='work-btn'>CODE</a>
+      <a target="_blank" href='https://metalwings001.github.io/help-center/' className='work-btn'>DEMO</a> <a target="_blank" href='https://github.com/metalwings001/help-center' className='work-btn'>CODE</a>
       </div></div>
       <div className='work-image-box'>  
-        <img className='work-image' src={web1}></img>
+        <a target="_blank" href='https://metalwings001.github.io/help-center/'><img className='work-image' src={web1}></img></a>
         <div className='work-image-text'> Product Help Center </div>
       </div>
      
@@ -301,6 +302,7 @@ const Footer = () => {
 
         </ul>
         <div className='footer-name'>Justin De León</div>
+        <div className='footer-name'>Email me: jadeleon3@gmail.com</div>
       </footer>
     </div>
   )
